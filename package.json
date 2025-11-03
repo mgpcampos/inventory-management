@@ -1,15 +1,16 @@
 {
-  "name": "inventory-management",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "express-session": "^1.18.2",
-    "method-override": "^3.0.0",
-    "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
-  }
+	"name": "inventory-management",
+	"private": true,
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"ejs": "^3.1.10",
+		"express": "^5.1.0",
+		"express-session": "^1.18.2",
+		"method-override": "^3.0.0",
+		"sequelize": "^6.37.7",
+		"sqlite3": "^5.1.7"
+	}
 }
