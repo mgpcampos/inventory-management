@@ -5,7 +5,7 @@
 
 Este repositório hospeda o código-fonte da aplicação desenvolvida para o projeto final da disciplina de **Desenvolvimento de Aplicações Web**.
 
-### Membros do Grupo
+### Integrantes do Grupo
 
 | Nome Completo | Prontuário |
 | :--- | :--- |
@@ -23,7 +23,7 @@ O **Sistema Genérico de Gerenciamento de Inventário** é uma aplicação web c
 O sistema permite o gerenciamento de:
 *   **Entidades Centrais:** Usuários, Categorias, Produtos, Fornecedores e Armazéns.
 *   **Movimentações de Estoque:** Registro de entradas (compras, ajustes), saídas (vendas, ajustes) e transferências entre armazéns, garantindo a integridade dos dados através de transações.
-*   **Controle de Acesso:** Autenticação baseada em papéis (`admin`, `gerente`, `balconista`) para proteger rotas e funcionalidades sensíveis.
+*   **Controle de Acesso:** Autenticação baseada em papéis (`admin`, `gerente`, `usuário`) para proteger rotas e funcionalidades sensíveis.
 *   **Relatórios:** Geração de consultas complexas com JOINs e agregações para visualização do estoque atual e alertas de estoque baixo.
 
 Este projeto segue o blueprint detalhado na `PROPOSTA.md`, focando em um conjunto robusto de operações CRUD e regras de negócio para simular um ambiente de inventário real.
@@ -105,7 +105,7 @@ A aplicação estará acessível em `http://localhost:3000` (ou na porta configu
 
 ---
 
-## 🔑 Credenciais de Acesso (Usuários Iniciais)
+## Credenciais de Acesso (Usuários Iniciais)
 
 Após a execução dos *seeders*, os seguintes usuários de teste estarão disponíveis:
 
@@ -119,7 +119,7 @@ Após a execução dos *seeders*, os seguintes usuários de teste estarão dispo
 
 ---
 
-## 🗺️ Estrutura do Projeto
+## Estrutura do Projeto
 
 A estrutura do projeto segue o padrão MVC (Model-View-Controller):
 

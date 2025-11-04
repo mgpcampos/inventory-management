@@ -8,9 +8,7 @@ const sequelize = new Sequelize({
 sequelize
 	.authenticate()
 	.then(() =>
-		console.log(
-			`Conexão com o banco de dados (SQLite3) estabelecida com sucesso.`,
-		),
+		console.log(`Conexão com o banco de dados estabelecida com sucesso.`),
 	)
 	.catch((err) => console.error(`ERRO: `, err));
 

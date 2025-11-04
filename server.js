@@ -1,8 +1,10 @@
-// server.js
 const app = require("./src/app");
+const sequelize = require("./src/config/database");
 
 const PORT = 3000;
 
-app.listen(PORT, () => {
-	console.log(`Aplicação ativa em: http://localhost:${PORT}`);
+sequelize.sync().then(() => {
+	app.listen(PORT, () =>
+		console.log(`Aplicação ativa em: http://localhost:${PORT}`),
+	);
 });

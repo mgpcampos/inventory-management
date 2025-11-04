@@ -1,6 +1,6 @@
 ### 1) Escopo e MVP
 
-- **Papéis:** admin, gerente, balconista.
+- **Papéis:** admin, gerente, usuário.
 - **Entidades Centrais:** usuários, categorias, produtos, fornecedores, armazéns, movimentações_de_estoque.
 - **Entidades Opcionais** (se você quiser mais realismo): pedidos_de_compra (+ itens), pedidos_de_venda (+ itens), clientes, saldos_de_estoque (snapshot por produto/armazém).
 - **Fluxos MVP:**
