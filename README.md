@@ -30,9 +30,9 @@ Este projeto segue o blueprint detalhado na `PROPOSTA.md`, focando em um conjunt
 
 ---
 
-## Pilha de Tecnologia
+## Conjunto de tecnologias, ferramentas e frameworks
 
-A aplicação foi construída utilizando a seguinte pilha de tecnologias, conforme os requisitos do projeto:
+A aplicação foi construída utilizando a seguinte pilha tecnológica, conforme os requisitos do projeto:
 
 | Categoria | Tecnologia | Descrição |
 | :--- | :--- | :--- |
