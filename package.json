@@ -2,7 +2,10 @@
 	"name": "inventory-management",
 	"private": true,
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"format": "npx @biomejs/biome format --write",
+		"lint": "npx @biomejs/biome lint --write",
+		"check": "npx @biomejs/biome check --write"
 	},
 	"dependencies": {
 		"bcrypt": "^6.0.0",
