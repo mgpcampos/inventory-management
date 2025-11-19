@@ -1,19 +1,25 @@
 {
 	"name": "inventory-management",
+	"main": "server.js",
 	"private": true,
 	"scripts": {
-		"start": "node server.js",
-		"format": "npx @biomejs/biome format --write",
-		"lint": "npx @biomejs/biome lint --write",
-		"check": "npx @biomejs/biome check --write"
+		"dev": "nodemon server.js",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write"
 	},
 	"dependencies": {
-		"bcrypt": "^6.0.0",
-		"ejs": "^3.1.10",
-		"express": "^5.1.0",
-		"express-session": "^1.18.2",
-		"method-override": "^3.0.0",
-		"sequelize": "^6.37.7",
-		"sqlite3": "^5.1.7"
+		"bcrypt": "6.0.0",
+		"ejs": "3.1.10",
+		"express": "5.1.0",
+		"express-session": "1.18.2",
+		"method-override": "3.0.0",
+		"sequelize": "6.37.7",
+		"sqlite3": "5.1.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.6",
+		"nodemon": "3.1.11",
+		"sequelize-cli": "6.6.3"
 	}
 }
